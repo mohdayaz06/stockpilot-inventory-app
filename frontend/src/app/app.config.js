@@ -9,7 +9,7 @@
      * value (or, for a fancier setup, generate this file from an env var
      * during your Docker build / CI pipeline).
      */
-    .constant('API_BASE_URL', 'http://15.207.114.251:5000/api')
+    .constant('API_BASE_URL', 'http://13.201.134.178:5000/api')
     .config(routeConfig)
     .run(runBlock);
 
