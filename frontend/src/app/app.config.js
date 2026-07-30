@@ -9,7 +9,7 @@
      * value (or, for a fancier setup, generate this file from an env var
      * during your Docker build / CI pipeline).
      */
-    .constant('API_BASE_URL', 'http://3.111.57.202:5000/api')
+    .constant('API_BASE_URL', 'http://a0e58825243024a9681311d45d48eda2-1673812574.ap-south-1.elb.amazonaws.com:5000/api')
     .config(routeConfig)
     .run(runBlock);
 
