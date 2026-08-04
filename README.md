@@ -63,34 +63,20 @@ Whenever Jenkins updates the deployment manifests:
 <img width="1915" height="982" alt="ad44fd33-0080-4210-81ad-b70ed496c8f8" src="https://github.com/user-attachments/assets/a6613272-e60e-4d85-82ed-9ec7349fc041" />
 
 
-The application is deployed on Amazon EKS using:
+## Kubernetes Architecture
 
-Frontend Deployment
-Backend Deployment
-MongoDB Deployment
-ClusterIP Services
-Kubernetes Ingress
-AWS Load Balancer Controller
-AWS Application Load Balancer (ALB)
+The application is deployed on an Amazon EKS cluster with the following components:
 
-Instead of exposing multiple LoadBalancers, a single AWS ALB routes traffic using Kubernetes Ingress.
+- AWS Application Load Balancer (ALB) exposes the application to users.
+- Kubernetes Ingress routes incoming traffic to the appropriate services.
+- Frontend Service forwards requests to the Frontend Pods.
+- Backend Service forwards API requests to the Backend Pods.
+- Backend Pods communicate with MongoDB for data storage.
+- Prometheus collects metrics from the Kubernetes cluster and application.
+- Grafana visualizes metrics through dashboards for monitoring and observability.
 
-Monitoring
+<img width="1920" height="1080" alt="09de8073-3bc9-4883-8dc7-c0ca86dbe19b" src="https://github.com/user-attachments/assets/f48f4e67-5f7c-46b9-bc7d-cc9c78f8e820" />
 
-The Kubernetes cluster is monitored using:
+<img width="1920" height="1080" alt="1fbcef0e-fd66-4368-a598-85ab700f21d8" src="https://github.com/user-attachments/assets/81bf5bd6-33e5-4648-a926-cf68527e1132" />
 
-Prometheus
-Node Exporter
-kube-state-metrics
 
-Features
-End-to-End CI/CD Pipeline
-GitOps Deployment
-Kubernetes on Amazon EKS
-AWS ALB Ingress
-Dockerized Application
-Automated Security Scanning
-Automated Code Quality Checks
-Infrastructure as Code
-Centralized Monitoring
-Production-style Deployment
