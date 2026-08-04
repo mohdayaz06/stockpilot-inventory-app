@@ -20,7 +20,7 @@ Tech Stack
 | 🐳 Containerization | Docker |
 | ☸️ Container Orchestration | Kubernetes (Amazon EKS) |
 | 🏗️ Infrastructure as Code | Terraform |
-| 🔄 CI | Jenkins |
+| 🔄 CI | Jenkins | 
 | 🚀 GitOps | Argo CD |
 | 📦 Container Registry | Docker Hub |
 | 🔍 Code Quality | SonarQube |
