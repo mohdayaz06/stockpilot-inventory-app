@@ -46,7 +46,7 @@ The Jenkins pipeline performs the following stages:
 - Argo CD Detects Changes
 - Automatic Deployment to Amazon EKS
 
-<img width="1415" height="435" alt="jenkins_stages_cropped" src="https://github.com/user-attachments/assets/c41b7026-8ca6-439f-9921-1905dbc37c46" />
+<img width="1415" height="435" alt="jenkins_stages_cropped" src="https://github.com/user-attachments/assets/8e93ae6a-14c6-4c80-a42a-58e19d4105b2" />
 
 Argo CD continuously watches the Kubernetes manifests stored in GitHub.
 
