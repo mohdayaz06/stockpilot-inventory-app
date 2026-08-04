@@ -92,8 +92,7 @@ The following screenshots demonstrate the user interface of the application runn
 
 ### Dashboard
 
-![Uploading ad26e0b8-6c65-4661-a6b6-b36f2cf1ed59.png…]()
-
+<img width="1920" height="1080" alt="ad26e0b8-6c65-4661-a6b6-b36f2cf1ed59" src="https://github.com/user-attachments/assets/773de497-356d-452e-a49e-83f76400878d" />
 
 
 
