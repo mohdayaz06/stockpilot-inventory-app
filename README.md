@@ -48,15 +48,20 @@ The Jenkins pipeline performs the following stages:
 
 <img width="1415" height="435" alt="jenkins_stages_cropped" src="https://github.com/user-attachments/assets/8e93ae6a-14c6-4c80-a42a-58e19d4105b2" />
 
-Argo CD continuously watches the Kubernetes manifests stored in GitHub.
+## GitOps Workflow (Argo CD)
+
+Argo CD continuously watches the Kubernetes manifests stored in the GitHub repository.
 
 Whenever Jenkins updates the deployment manifests:
 
-Argo CD detects the Git commit
-Synchronizes the desired state
-Deploys the latest application to Amazon EKS
-Performs automatic reconciliation (Self-Healing)
-Kubernetes Architecture
+- Argo CD detects the new Git commit.
+- Synchronizes the desired state with the Kubernetes cluster.
+- Deploys the latest application to Amazon EKS.
+- Automatically reconciles any configuration drift (Self-Healing).
+- Ensures the cluster state always matches the Git repository.
+
+<img width="1915" height="982" alt="ad44fd33-0080-4210-81ad-b70ed496c8f8" src="https://github.com/user-attachments/assets/a6613272-e60e-4d85-82ed-9ec7349fc041" />
+
 
 The application is deployed on Amazon EKS using:
 
