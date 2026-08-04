@@ -31,17 +31,23 @@ Tech Stack
 | 🌐 Load Balancer | AWS Application Load Balancer (ALB) |
 | 🔀 Networking | Kubernetes Ingress |
 
+## 🔄 CI/CD Pipeline
+
 The Jenkins pipeline performs the following stages:
 
-Checkout Source Code
-Install Dependencies
-SonarQube Code Analysis
-Docker Image Build
-Trivy Image Scan
-Push Image to Docker Hub
-Update Kubernetes Manifest
-Push Changes to GitHub
-GitOps Workflow
+- Checkout Source Code
+- Install Dependencies
+- SonarQube Code Analysis
+- Build Docker Image
+- Trivy Vulnerability Scan
+- Push Docker Image to Docker Hub
+- Update Kubernetes Manifests
+- Push Changes to GitHub
+- Argo CD Detects Changes
+- Automatic Deployment to Amazon EKS
+
+<img width="1600" height="1180" alt="devops_gitops_architecture" src="https://github.com/user-attachments/assets/6a8a733f-ebae-4a51-b92b-1b8b325cf071" />
+
 
 Argo CD continuously watches the Kubernetes manifests stored in GitHub.
 
