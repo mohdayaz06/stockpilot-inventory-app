@@ -79,4 +79,21 @@ The application is deployed on an Amazon EKS cluster with the following componen
 
 <img width="1920" height="1080" alt="1fbcef0e-fd66-4368-a598-85ab700f21d8" src="https://github.com/user-attachments/assets/81bf5bd6-33e5-4648-a926-cf68527e1132" />
 
+<img width="1910" height="962" alt="bc498f4d-3e5d-47b0-8024-8cdda18cb19a" src="https://github.com/user-attachments/assets/b31ae2e1-25e0-43d6-9efa-5c271e4d8519" />
+
+## 🌐 StockPilot Inventory Management System
+
+The following screenshots demonstrate the user interface of the application running on Amazon EKS.
+
+### Login Page
+
+<img width="1920" height="1080" alt="0002db1a-eb13-48f0-adf6-eca2c375c5b8" src="https://github.com/user-attachments/assets/6591d2ab-f4ce-4b30-b0c9-b2e5505cf67b" />
+
+
+### Dashboard
+
+![Uploading ad26e0b8-6c65-4661-a6b6-b36f2cf1ed59.png…]()
+
+
+
 
