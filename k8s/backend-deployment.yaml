@@ -2,9 +2,11 @@ apiVersion: apps/v1
 kind: Deployment
 
 metadata:
-  name: backend
+  name: stockpilot-backend
   labels:
     app: backend
+  annotations:
+    test: argocd-gitops-test
 
 spec:
   replicas: 1
