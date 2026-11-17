@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: mohdayazz/stockpilot-frontend:build-5
+        image: mohdayazz/stockpilot-frontend:build-7
         imagePullPolicy: Always
 
         ports:
